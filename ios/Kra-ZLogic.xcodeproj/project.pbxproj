@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B45643F152805AD0053CD63 /* binaryLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B456420152805AD0053CD63 /* binaryLogic.cpp */; };
+		8B456441152805AD0053CD63 /* decimalLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B456423152805AD0053CD63 /* decimalLogic.cpp */; };
+		8B456443152805AD0053CD63 /* hexLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B456426152805AD0053CD63 /* hexLogic.cpp */; };
+		8B456446152805AD0053CD63 /* logic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B45642B152805AD0053CD63 /* logic.cpp */; };
+		8B456449152805AD0053CD63 /* numericBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B45642F152805AD0053CD63 /* numericBase.cpp */; };
+		8B45644B152805AD0053CD63 /* octalLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B456432152805AD0053CD63 /* octalLogic.cpp */; };
+		8B45644D152805AD0053CD63 /* operator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B456435152805AD0053CD63 /* operator.cpp */; };
+		8B521CCC1534240800F0C3E4 /* binaryLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B456420152805AD0053CD63 /* binaryLogic.cpp */; };
+		8B521CCD1534240800F0C3E4 /* decimalLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B456423152805AD0053CD63 /* decimalLogic.cpp */; };
+		8B521CCE1534240800F0C3E4 /* hexLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B456426152805AD0053CD63 /* hexLogic.cpp */; };
+		8B521CCF1534240800F0C3E4 /* logic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B45642B152805AD0053CD63 /* logic.cpp */; };
+		8B521CD01534240800F0C3E4 /* numericBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B45642F152805AD0053CD63 /* numericBase.cpp */; };
+		8B521CD11534240800F0C3E4 /* octalLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B456432152805AD0053CD63 /* octalLogic.cpp */; };
+		8B521CD21534240800F0C3E4 /* operator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B456435152805AD0053CD63 /* operator.cpp */; };
+		8B521CD31534240800F0C3E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3661A152919F6004AF275 /* AppDelegate.m */; };
+		8B521CD41534240800F0C3E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB36624152919F6004AF275 /* main.m */; };
+		8B521CD51534240800F0C3E4 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8BB36626152919F6004AF275 /* ViewController.mm */; };
+		8B521CD71534240800F0C3E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B942056151705D6006D4001 /* UIKit.framework */; };
+		8B521CD81534240800F0C3E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B942058151705D6006D4001 /* Foundation.framework */; };
+		8B521CD91534240800F0C3E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B94205A151705D6006D4001 /* CoreGraphics.framework */; };
+		8B521CDB1534240800F0C3E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BB3661C152919F6004AF275 /* InfoPlist.strings */; };
+		8B521CDC1534240800F0C3E4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB3661E152919F6004AF275 /* MainStoryboard_iPad.storyboard */; };
+		8B521CDD1534240800F0C3E4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB36620152919F6004AF275 /* MainStoryboard_iPhone.storyboard */; };
+		8B521CDE1534240800F0C3E4 /* Icon_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB3662F152929C7004AF275 /* Icon_114x114.png */; };
+		8B521CDF1534240800F0C3E4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB36631152929DA004AF275 /* Default@2x.png */; };
+		8B521CE01534240800F0C3E4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB36633152929E6004AF275 /* Default.png */; };
+		8B521CE11534240800F0C3E4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB36635152929FC004AF275 /* Icon.png */; };
+		8B521CEB1534241B00F0C3E4 /* libTestStudioPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B521CEA1534241B00F0C3E4 /* libTestStudioPlugin.a */; };
+		8B785F1215342B6000FDC4E7 /* btnPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6E41529105E00B13A55 /* btnPressed.png */; };
+		8B785F1315342B6000FDC4E7 /* btnPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6E41529105E00B13A55 /* btnPressed.png */; };
+		8B785F1415342B6600FDC4E7 /* btnBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6E31529105E00B13A55 /* btnBackground.png */; };
+		8B785F1515342B6700FDC4E7 /* btnBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6E31529105E00B13A55 /* btnBackground.png */; };
+		8B785F1615342B8800FDC4E7 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6E51529105E00B13A55 /* Default-Portrait@2x~ipad.png */; };
+		8B785F1715342B8800FDC4E7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6E61529105E00B13A55 /* Default.png */; };
+		8B785F1815342B8800FDC4E7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6E71529105E00B13A55 /* Default@2x.png */; };
+		8B785F1915342B8800FDC4E7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6E81529105E00B13A55 /* Icon.png */; };
+		8B785F1A15342B8800FDC4E7 /* Icon_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6E91529105E00B13A55 /* Icon_114x114.png */; };
+		8B785F2615342B8800FDC4E7 /* lblBinaryOutput.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6F51529105E00B13A55 /* lblBinaryOutput.png */; };
+		8B785F2715342B8800FDC4E7 /* lblBinaryOutput_Org.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6F61529105E00B13A55 /* lblBinaryOutput_Org.png */; };
+		8B785F2815342B8800FDC4E7 /* lblOutput.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6F71529105E00B13A55 /* lblOutput.png */; };
+		8B785F2915342B8800FDC4E7 /* lblOutput_Org.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6F81529105E00B13A55 /* lblOutput_Org.png */; };
+		8B785F2A15342B8800FDC4E7 /* lblOutputBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6F91529105E00B13A55 /* lblOutputBackground.png */; };
+		8B785F2B15342B8800FDC4E7 /* Screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6FA1529105E00B13A55 /* Screen1.png */; };
+		8B785F2C15342B8800FDC4E7 /* Screen1_320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6FB1529105E00B13A55 /* Screen1_320x480.png */; };
+		8B785F2D15342B8800FDC4E7 /* Screen1_640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6FC1529105E00B13A55 /* Screen1_640x960.png */; };
+		8B785F2E15342B8800FDC4E7 /* Screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6FD1529105E00B13A55 /* Screen2.png */; };
+		8B785F2F15342B8900FDC4E7 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6E51529105E00B13A55 /* Default-Portrait@2x~ipad.png */; };
+		8B785F3015342B8900FDC4E7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6E61529105E00B13A55 /* Default.png */; };
+		8B785F3115342B8900FDC4E7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6E71529105E00B13A55 /* Default@2x.png */; };
+		8B785F3215342B8900FDC4E7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6E81529105E00B13A55 /* Icon.png */; };
+		8B785F3315342B8900FDC4E7 /* Icon_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6E91529105E00B13A55 /* Icon_114x114.png */; };
+		8B785F3F15342B8900FDC4E7 /* lblBinaryOutput.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6F51529105E00B13A55 /* lblBinaryOutput.png */; };
+		8B785F4015342B8900FDC4E7 /* lblBinaryOutput_Org.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6F61529105E00B13A55 /* lblBinaryOutput_Org.png */; };
+		8B785F4115342B8900FDC4E7 /* lblOutput.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6F71529105E00B13A55 /* lblOutput.png */; };
+		8B785F4215342B8900FDC4E7 /* lblOutput_Org.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6F81529105E00B13A55 /* lblOutput_Org.png */; };
+		8B785F4315342B8900FDC4E7 /* lblOutputBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6F91529105E00B13A55 /* lblOutputBackground.png */; };
+		8B785F4415342B8900FDC4E7 /* Screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6FA1529105E00B13A55 /* Screen1.png */; };
+		8B785F4515342B8900FDC4E7 /* Screen1_320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6FB1529105E00B13A55 /* Screen1_320x480.png */; };
+		8B785F4615342B8900FDC4E7 /* Screen1_640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6FC1529105E00B13A55 /* Screen1_640x960.png */; };
+		8B785F4715342B8900FDC4E7 /* Screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67F6FD1529105E00B13A55 /* Screen2.png */; };
+		8B942057151705D6006D4001 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B942056151705D6006D4001 /* UIKit.framework */; };
+		8B942059151705D6006D4001 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B942058151705D6006D4001 /* Foundation.framework */; };
+		8B94205B151705D6006D4001 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B94205A151705D6006D4001 /* CoreGraphics.framework */; };
+		8BB36627152919F6004AF275 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3661A152919F6004AF275 /* AppDelegate.m */; };
+		8BB36628152919F6004AF275 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BB3661C152919F6004AF275 /* InfoPlist.strings */; };
+		8BB36629152919F6004AF275 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB3661E152919F6004AF275 /* MainStoryboard_iPad.storyboard */; };
+		8BB3662A152919F6004AF275 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB36620152919F6004AF275 /* MainStoryboard_iPhone.storyboard */; };
+		8BB3662C152919F6004AF275 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB36624152919F6004AF275 /* main.m */; };
+		8BB3662D152919F6004AF275 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8BB36626152919F6004AF275 /* ViewController.mm */; };
+		8BB36630152929C7004AF275 /* Icon_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB3662F152929C7004AF275 /* Icon_114x114.png */; };
+		8BB36632152929DA004AF275 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB36631152929DA004AF275 /* Default@2x.png */; };
+		8BB36634152929E6004AF275 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB36633152929E6004AF275 /* Default.png */; };
+		8BB36636152929FC004AF275 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB36635152929FC004AF275 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B456420152805AD0053CD63 /* binaryLogic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = binaryLogic.cpp; sourceTree = "<group>"; };
+		8B456421152805AD0053CD63 /* binaryLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binaryLogic.h; sourceTree = "<group>"; };
+		8B456423152805AD0053CD63 /* decimalLogic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = decimalLogic.cpp; sourceTree = "<group>"; };
+		8B456424152805AD0053CD63 /* decimalLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decimalLogic.h; sourceTree = "<group>"; };
+		8B456426152805AD0053CD63 /* hexLogic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hexLogic.cpp; sourceTree = "<group>"; };
+		8B456427152805AD0053CD63 /* hexLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hexLogic.h; sourceTree = "<group>"; };
+		8B45642B152805AD0053CD63 /* logic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = logic.cpp; sourceTree = "<group>"; };
+		8B45642C152805AD0053CD63 /* logic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logic.h; sourceTree = "<group>"; };
+		8B45642F152805AD0053CD63 /* numericBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = numericBase.cpp; sourceTree = "<group>"; };
+		8B456430152805AD0053CD63 /* numericBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = numericBase.h; sourceTree = "<group>"; };
+		8B456432152805AD0053CD63 /* octalLogic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = octalLogic.cpp; sourceTree = "<group>"; };
+		8B456433152805AD0053CD63 /* octalLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = octalLogic.h; sourceTree = "<group>"; };
+		8B456435152805AD0053CD63 /* operator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = operator.cpp; sourceTree = "<group>"; };
+		8B456436152805AD0053CD63 /* operator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = operator.h; sourceTree = "<group>"; };
+		8B45643B152805AD0053CD63 /* types_osx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types_osx.h; sourceTree = "<group>"; };
+		8B45643C152805AD0053CD63 /* types_win32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types_win32.h; sourceTree = "<group>"; };
+		8B4564531528073E0053CD63 /* Makefile */ = {isa = PBXFileReference; explicitFileType = sourcecode.make; fileEncoding = 4; path = Makefile; sourceTree = "<group>"; };
+		8B4564551528077C0053CD63 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		8B521CE61534240800F0C3E4 /* Kra-ZLogicQA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kra-ZLogicQA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B521CE81534240800F0C3E4 /* Kra-ZLogicQA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Kra-ZLogicQA-Info.plist"; path = "/davis/code/dvs/Kra-Z/Kra-ZLogic/ios/Kra-ZLogicQA-Info.plist"; sourceTree = "<absolute>"; };
+		8B521CEA1534241B00F0C3E4 /* libTestStudioPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTestStudioPlugin.a; path = "../../../../Test Studio iOS/TestStudioPlugin/libTestStudioPlugin.a"; sourceTree = "<group>"; };
+		8B67F6E31529105E00B13A55 /* btnBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnBackground.png; sourceTree = "<group>"; };
+		8B67F6E41529105E00B13A55 /* btnPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnPressed.png; sourceTree = "<group>"; };
+		8B67F6E51529105E00B13A55 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		8B67F6E61529105E00B13A55 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8B67F6E71529105E00B13A55 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8B67F6E81529105E00B13A55 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8B67F6E91529105E00B13A55 /* Icon_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_114x114.png; sourceTree = "<group>"; };
+		8B67F6EA1529105E00B13A55 /* IMG_0477.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0477.PNG; sourceTree = "<group>"; };
+		8B67F6EB1529105E00B13A55 /* Kra-Z Development_(512x512).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kra-Z Development_(512x512).png"; sourceTree = "<group>"; };
+		8B67F6EC1529105E00B13A55 /* Kra-ZLogic_Bin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kra-ZLogic_Bin.png"; sourceTree = "<group>"; };
+		8B67F6ED1529105E00B13A55 /* Kra-ZLogic_Bin_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kra-ZLogic_Bin_iPad.png"; sourceTree = "<group>"; };
+		8B67F6EE1529105E00B13A55 /* Kra-ZLogic_Dec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kra-ZLogic_Dec.png"; sourceTree = "<group>"; };
+		8B67F6EF1529105E00B13A55 /* Kra-ZLogic_Dec_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kra-ZLogic_Dec_iPad.png"; sourceTree = "<group>"; };
+		8B67F6F01529105E00B13A55 /* Kra-ZLogic_Hex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kra-ZLogic_Hex.png"; sourceTree = "<group>"; };
+		8B67F6F11529105E00B13A55 /* Kra-ZLogic_Hex_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kra-ZLogic_Hex_iPad.png"; sourceTree = "<group>"; };
+		8B67F6F21529105E00B13A55 /* Kra-ZLogic_Loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kra-ZLogic_Loading.png"; sourceTree = "<group>"; };
+		8B67F6F31529105E00B13A55 /* Kra-ZLogic_Oct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kra-ZLogic_Oct.png"; sourceTree = "<group>"; };
+		8B67F6F41529105E00B13A55 /* Kra-ZLogic_Oct_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kra-ZLogic_Oct_iPad.png"; sourceTree = "<group>"; };
+		8B67F6F51529105E00B13A55 /* lblBinaryOutput.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lblBinaryOutput.png; sourceTree = "<group>"; };
+		8B67F6F61529105E00B13A55 /* lblBinaryOutput_Org.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lblBinaryOutput_Org.png; sourceTree = "<group>"; };
+		8B67F6F71529105E00B13A55 /* lblOutput.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lblOutput.png; sourceTree = "<group>"; };
+		8B67F6F81529105E00B13A55 /* lblOutput_Org.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lblOutput_Org.png; sourceTree = "<group>"; };
+		8B67F6F91529105E00B13A55 /* lblOutputBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lblOutputBackground.png; sourceTree = "<group>"; };
+		8B67F6FA1529105E00B13A55 /* Screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen1.png; sourceTree = "<group>"; };
+		8B67F6FB1529105E00B13A55 /* Screen1_320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen1_320x480.png; sourceTree = "<group>"; };
+		8B67F6FC1529105E00B13A55 /* Screen1_640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen1_640x960.png; sourceTree = "<group>"; };
+		8B67F6FD1529105E00B13A55 /* Screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen2.png; sourceTree = "<group>"; };
+		8B942052151705D6006D4001 /* Kra-ZLogic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kra-ZLogic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B942056151705D6006D4001 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8B942058151705D6006D4001 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8B94205A151705D6006D4001 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BB36619152919F6004AF275 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BB3661A152919F6004AF275 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BB3661D152919F6004AF275 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		8BB3661F152919F6004AF275 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8BB36621152919F6004AF275 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8BB36622152919F6004AF275 /* Kra-ZLogic-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Kra-ZLogic-Info.plist"; sourceTree = "<group>"; };
+		8BB36623152919F6004AF275 /* Kra-ZLogic-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Kra-ZLogic-Prefix.pch"; sourceTree = "<group>"; };
+		8BB36624152919F6004AF275 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BB36625152919F6004AF275 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BB36626152919F6004AF275 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		8BB3662F152929C7004AF275 /* Icon_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_114x114.png; sourceTree = "<group>"; };
+		8BB36631152929DA004AF275 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8BB36633152929E6004AF275 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8BB36635152929FC004AF275 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B521CD61534240800F0C3E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B521CD71534240800F0C3E4 /* UIKit.framework in Frameworks */,
+				8B521CD81534240800F0C3E4 /* Foundation.framework in Frameworks */,
+				8B521CD91534240800F0C3E4 /* CoreGraphics.framework in Frameworks */,
+				8B521CEB1534241B00F0C3E4 /* libTestStudioPlugin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B94204F151705D6006D4001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B942057151705D6006D4001 /* UIKit.framework in Frameworks */,
+				8B942059151705D6006D4001 /* Foundation.framework in Frameworks */,
+				8B94205B151705D6006D4001 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B45641C152805AD0053CD63 /* CalulatorLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				8B4564551528077C0053CD63 /* test.cpp */,
+				8B4564531528073E0053CD63 /* Makefile */,
+				8B456420152805AD0053CD63 /* binaryLogic.cpp */,
+				8B456421152805AD0053CD63 /* binaryLogic.h */,
+				8B456423152805AD0053CD63 /* decimalLogic.cpp */,
+				8B456424152805AD0053CD63 /* decimalLogic.h */,
+				8B456426152805AD0053CD63 /* hexLogic.cpp */,
+				8B456427152805AD0053CD63 /* hexLogic.h */,
+				8B45642B152805AD0053CD63 /* logic.cpp */,
+				8B45642C152805AD0053CD63 /* logic.h */,
+				8B45642F152805AD0053CD63 /* numericBase.cpp */,
+				8B456430152805AD0053CD63 /* numericBase.h */,
+				8B456432152805AD0053CD63 /* octalLogic.cpp */,
+				8B456433152805AD0053CD63 /* octalLogic.h */,
+				8B456435152805AD0053CD63 /* operator.cpp */,
+				8B456436152805AD0053CD63 /* operator.h */,
+				8B45643B152805AD0053CD63 /* types_osx.h */,
+				8B45643C152805AD0053CD63 /* types_win32.h */,
+			);
+			path = CalulatorLibrary;
+			sourceTree = "<group>";
+		};
+		8B67F6E21529105E00B13A55 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B67F6E31529105E00B13A55 /* btnBackground.png */,
+				8B67F6E41529105E00B13A55 /* btnPressed.png */,
+				8B67F6E51529105E00B13A55 /* Default-Portrait@2x~ipad.png */,
+				8B67F6E61529105E00B13A55 /* Default.png */,
+				8B67F6E71529105E00B13A55 /* Default@2x.png */,
+				8B67F6E81529105E00B13A55 /* Icon.png */,
+				8B67F6E91529105E00B13A55 /* Icon_114x114.png */,
+				8B67F6EA1529105E00B13A55 /* IMG_0477.PNG */,
+				8B67F6EB1529105E00B13A55 /* Kra-Z Development_(512x512).png */,
+				8B67F6EC1529105E00B13A55 /* Kra-ZLogic_Bin.png */,
+				8B67F6ED1529105E00B13A55 /* Kra-ZLogic_Bin_iPad.png */,
+				8B67F6EE1529105E00B13A55 /* Kra-ZLogic_Dec.png */,
+				8B67F6EF1529105E00B13A55 /* Kra-ZLogic_Dec_iPad.png */,
+				8B67F6F01529105E00B13A55 /* Kra-ZLogic_Hex.png */,
+				8B67F6F11529105E00B13A55 /* Kra-ZLogic_Hex_iPad.png */,
+				8B67F6F21529105E00B13A55 /* Kra-ZLogic_Loading.png */,
+				8B67F6F31529105E00B13A55 /* Kra-ZLogic_Oct.png */,
+				8B67F6F41529105E00B13A55 /* Kra-ZLogic_Oct_iPad.png */,
+				8B67F6F51529105E00B13A55 /* lblBinaryOutput.png */,
+				8B67F6F61529105E00B13A55 /* lblBinaryOutput_Org.png */,
+				8B67F6F71529105E00B13A55 /* lblOutput.png */,
+				8B67F6F81529105E00B13A55 /* lblOutput_Org.png */,
+				8B67F6F91529105E00B13A55 /* lblOutputBackground.png */,
+				8B67F6FA1529105E00B13A55 /* Screen1.png */,
+				8B67F6FB1529105E00B13A55 /* Screen1_320x480.png */,
+				8B67F6FC1529105E00B13A55 /* Screen1_640x960.png */,
+				8B67F6FD1529105E00B13A55 /* Screen2.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8B942047151705D5006D4001 = {
+			isa = PBXGroup;
+			children = (
+				8BB36635152929FC004AF275 /* Icon.png */,
+				8BB36633152929E6004AF275 /* Default.png */,
+				8BB36631152929DA004AF275 /* Default@2x.png */,
+				8BB3662F152929C7004AF275 /* Icon_114x114.png */,
+				8BB3662E15291A20004AF275 /* Kra-ZLogic */,
+				8B67F6E21529105E00B13A55 /* Resources */,
+				8B45641C152805AD0053CD63 /* CalulatorLibrary */,
+				8B942055151705D6006D4001 /* Frameworks */,
+				8B942053151705D6006D4001 /* Products */,
+				8B521CE81534240800F0C3E4 /* Kra-ZLogicQA-Info.plist */,
+				8B521CEA1534241B00F0C3E4 /* libTestStudioPlugin.a */,
+			);
+			sourceTree = "<group>";
+		};
+		8B942053151705D6006D4001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B942052151705D6006D4001 /* Kra-ZLogic.app */,
+				8B521CE61534240800F0C3E4 /* Kra-ZLogicQA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B942055151705D6006D4001 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B942056151705D6006D4001 /* UIKit.framework */,
+				8B942058151705D6006D4001 /* Foundation.framework */,
+				8B94205A151705D6006D4001 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BB3661B152919F6004AF275 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				8BB3661C152919F6004AF275 /* InfoPlist.strings */,
+				8BB36620152919F6004AF275 /* MainStoryboard_iPhone.storyboard */,
+				8BB3661E152919F6004AF275 /* MainStoryboard_iPad.storyboard */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		8BB3662E15291A20004AF275 /* Kra-ZLogic */ = {
+			isa = PBXGroup;
+			children = (
+				8BB36626152919F6004AF275 /* ViewController.mm */,
+				8BB36625152919F6004AF275 /* ViewController.h */,
+				8BB36624152919F6004AF275 /* main.m */,
+				8BB36623152919F6004AF275 /* Kra-ZLogic-Prefix.pch */,
+				8BB36622152919F6004AF275 /* Kra-ZLogic-Info.plist */,
+				8BB3661B152919F6004AF275 /* en.lproj */,
+				8BB3661A152919F6004AF275 /* AppDelegate.m */,
+				8BB36619152919F6004AF275 /* AppDelegate.h */,
+			);
+			name = "Kra-ZLogic";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B521CCA1534240800F0C3E4 /* Kra-ZLogicQA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B521CE31534240800F0C3E4 /* Build configuration list for PBXNativeTarget "Kra-ZLogicQA" */;
+			buildPhases = (
+				8B521CCB1534240800F0C3E4 /* Sources */,
+				8B521CD61534240800F0C3E4 /* Frameworks */,
+				8B521CDA1534240800F0C3E4 /* Resources */,
+				8B521CE21534240800F0C3E4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kra-ZLogicQA";
+			productName = "Kra-ZLogic";
+			productReference = 8B521CE61534240800F0C3E4 /* Kra-ZLogicQA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B942051151705D6006D4001 /* Kra-ZLogic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B942073151705D6006D4001 /* Build configuration list for PBXNativeTarget "Kra-ZLogic" */;
+			buildPhases = (
+				8B94204E151705D6006D4001 /* Sources */,
+				8B94204F151705D6006D4001 /* Frameworks */,
+				8B942050151705D6006D4001 /* Resources */,
+				8B94207D15170643006D4001 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kra-ZLogic";
+			productName = "Kra-ZLogic";
+			productReference = 8B942052151705D6006D4001 /* Kra-ZLogic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B942049151705D5006D4001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 8B94204C151705D5006D4001 /* Build configuration list for PBXProject "Kra-ZLogic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8B942047151705D5006D4001;
+			productRefGroup = 8B942053151705D6006D4001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B942051151705D6006D4001 /* Kra-ZLogic */,
+				8B521CCA1534240800F0C3E4 /* Kra-ZLogicQA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B521CDA1534240800F0C3E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B521CDB1534240800F0C3E4 /* InfoPlist.strings in Resources */,
+				8B521CDC1534240800F0C3E4 /* MainStoryboard_iPad.storyboard in Resources */,
+				8B521CDD1534240800F0C3E4 /* MainStoryboard_iPhone.storyboard in Resources */,
+				8B521CDE1534240800F0C3E4 /* Icon_114x114.png in Resources */,
+				8B521CDF1534240800F0C3E4 /* Default@2x.png in Resources */,
+				8B521CE01534240800F0C3E4 /* Default.png in Resources */,
+				8B521CE11534240800F0C3E4 /* Icon.png in Resources */,
+				8B785F1315342B6000FDC4E7 /* btnPressed.png in Resources */,
+				8B785F1515342B6700FDC4E7 /* btnBackground.png in Resources */,
+				8B785F2F15342B8900FDC4E7 /* Default-Portrait@2x~ipad.png in Resources */,
+				8B785F3015342B8900FDC4E7 /* Default.png in Resources */,
+				8B785F3115342B8900FDC4E7 /* Default@2x.png in Resources */,
+				8B785F3215342B8900FDC4E7 /* Icon.png in Resources */,
+				8B785F3315342B8900FDC4E7 /* Icon_114x114.png in Resources */,
+				8B785F3F15342B8900FDC4E7 /* lblBinaryOutput.png in Resources */,
+				8B785F4015342B8900FDC4E7 /* lblBinaryOutput_Org.png in Resources */,
+				8B785F4115342B8900FDC4E7 /* lblOutput.png in Resources */,
+				8B785F4215342B8900FDC4E7 /* lblOutput_Org.png in Resources */,
+				8B785F4315342B8900FDC4E7 /* lblOutputBackground.png in Resources */,
+				8B785F4415342B8900FDC4E7 /* Screen1.png in Resources */,
+				8B785F4515342B8900FDC4E7 /* Screen1_320x480.png in Resources */,
+				8B785F4615342B8900FDC4E7 /* Screen1_640x960.png in Resources */,
+				8B785F4715342B8900FDC4E7 /* Screen2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B942050151705D6006D4001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB36628152919F6004AF275 /* InfoPlist.strings in Resources */,
+				8BB36629152919F6004AF275 /* MainStoryboard_iPad.storyboard in Resources */,
+				8BB3662A152919F6004AF275 /* MainStoryboard_iPhone.storyboard in Resources */,
+				8BB36630152929C7004AF275 /* Icon_114x114.png in Resources */,
+				8BB36632152929DA004AF275 /* Default@2x.png in Resources */,
+				8BB36634152929E6004AF275 /* Default.png in Resources */,
+				8BB36636152929FC004AF275 /* Icon.png in Resources */,
+				8B785F1215342B6000FDC4E7 /* btnPressed.png in Resources */,
+				8B785F1415342B6600FDC4E7 /* btnBackground.png in Resources */,
+				8B785F1615342B8800FDC4E7 /* Default-Portrait@2x~ipad.png in Resources */,
+				8B785F1715342B8800FDC4E7 /* Default.png in Resources */,
+				8B785F1815342B8800FDC4E7 /* Default@2x.png in Resources */,
+				8B785F1915342B8800FDC4E7 /* Icon.png in Resources */,
+				8B785F1A15342B8800FDC4E7 /* Icon_114x114.png in Resources */,
+				8B785F2615342B8800FDC4E7 /* lblBinaryOutput.png in Resources */,
+				8B785F2715342B8800FDC4E7 /* lblBinaryOutput_Org.png in Resources */,
+				8B785F2815342B8800FDC4E7 /* lblOutput.png in Resources */,
+				8B785F2915342B8800FDC4E7 /* lblOutput_Org.png in Resources */,
+				8B785F2A15342B8800FDC4E7 /* lblOutputBackground.png in Resources */,
+				8B785F2B15342B8800FDC4E7 /* Screen1.png in Resources */,
+				8B785F2C15342B8800FDC4E7 /* Screen1_320x480.png in Resources */,
+				8B785F2D15342B8800FDC4E7 /* Screen1_640x960.png in Resources */,
+				8B785F2E15342B8800FDC4E7 /* Screen2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B521CE21534240800F0C3E4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Developer/iphoneentitlements401/gen_entitlements.py \"com.liquidthoughts.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+		8B94207D15170643006D4001 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Developer/iphoneentitlements401/gen_entitlements.py \"com.liquidthoughts.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B521CCB1534240800F0C3E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B521CCC1534240800F0C3E4 /* binaryLogic.cpp in Sources */,
+				8B521CCD1534240800F0C3E4 /* decimalLogic.cpp in Sources */,
+				8B521CCE1534240800F0C3E4 /* hexLogic.cpp in Sources */,
+				8B521CCF1534240800F0C3E4 /* logic.cpp in Sources */,
+				8B521CD01534240800F0C3E4 /* numericBase.cpp in Sources */,
+				8B521CD11534240800F0C3E4 /* octalLogic.cpp in Sources */,
+				8B521CD21534240800F0C3E4 /* operator.cpp in Sources */,
+				8B521CD31534240800F0C3E4 /* AppDelegate.m in Sources */,
+				8B521CD41534240800F0C3E4 /* main.m in Sources */,
+				8B521CD51534240800F0C3E4 /* ViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B94204E151705D6006D4001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B45643F152805AD0053CD63 /* binaryLogic.cpp in Sources */,
+				8B456441152805AD0053CD63 /* decimalLogic.cpp in Sources */,
+				8B456443152805AD0053CD63 /* hexLogic.cpp in Sources */,
+				8B456446152805AD0053CD63 /* logic.cpp in Sources */,
+				8B456449152805AD0053CD63 /* numericBase.cpp in Sources */,
+				8B45644B152805AD0053CD63 /* octalLogic.cpp in Sources */,
+				8B45644D152805AD0053CD63 /* operator.cpp in Sources */,
+				8BB36627152919F6004AF275 /* AppDelegate.m in Sources */,
+				8BB3662C152919F6004AF275 /* main.m in Sources */,
+				8BB3662D152919F6004AF275 /* ViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BB3661C152919F6004AF275 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB3661D152919F6004AF275 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BB3661E152919F6004AF275 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB3661F152919F6004AF275 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8BB36620152919F6004AF275 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB36621152919F6004AF275 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B521CE41534240800F0C3E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kra-ZLogic-Prefix.pch";
+				INFOPLIST_FILE = "Kra-ZLogicQA-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Test Studio iOS/TestStudioPlugin\"",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "Kra-ZLogicQA";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8B521CE51534240800F0C3E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kra-ZLogic-Prefix.pch";
+				INFOPLIST_FILE = "Kra-ZLogicQA-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Test Studio iOS/TestStudioPlugin\"",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "Kra-ZLogicQA";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8B942071151705D6006D4001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B942072151705D6006D4001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B942074151705D6006D4001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kra-ZLogic-Prefix.pch";
+				INFOPLIST_FILE = "Kra-ZLogic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8B942075151705D6006D4001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kra-ZLogic-Prefix.pch";
+				INFOPLIST_FILE = "Kra-ZLogic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B521CE31534240800F0C3E4 /* Build configuration list for PBXNativeTarget "Kra-ZLogicQA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B521CE41534240800F0C3E4 /* Debug */,
+				8B521CE51534240800F0C3E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B94204C151705D5006D4001 /* Build configuration list for PBXProject "Kra-ZLogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B942071151705D6006D4001 /* Debug */,
+				8B942072151705D6006D4001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B942073151705D6006D4001 /* Build configuration list for PBXNativeTarget "Kra-ZLogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B942074151705D6006D4001 /* Debug */,
+				8B942075151705D6006D4001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B942049151705D5006D4001 /* Project object */;
+}
