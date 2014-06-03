@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B13164B5-01A9-4A36-8FE8-0A167DE43202</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Kra-ZLogic</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>09E6D375-C2E8-4B48-AFEE-03D29E6DC302</key>
+		<string>ssh://github.com/davislg/kra-zlogic.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/Kra-ZLogic.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>09E6D375-C2E8-4B48-AFEE-03D29E6DC302</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/davislg/kra-zlogic.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>09E6D375-C2E8-4B48-AFEE-03D29E6DC302</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>09E6D375-C2E8-4B48-AFEE-03D29E6DC302</string>
+			<key>IDESourceControlWCCName</key>
+			<string>kra-zlogic</string>
+		</dict>
+	</array>
+</dict>
+</plist>
